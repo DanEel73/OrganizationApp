@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/ic_timer"
+            android:title="Timer" />
+        <item
+            android:id="@+id/nav_todolist"
+            android:icon="@drawable/ic_todolist"
+            android:title="To-Do List" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Schedule" />
+    </group>
+
+    <item android:title="About Us">
+        <menu>
+            <item
+                android:id="@+id/nav_why"
+                android:icon="@drawable/ic_why"
+                android:title="Our Goal" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_website"
+                android:title="Our Website" />
+        </menu>
+    </item>
+
+</menu>
